@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Nimbus Sans L', sans-serif;
     box-sizing: border-box;
 }
 html, body{
@@ -9,4 +10,33 @@ html, body{
 }
 #main{
     width: 100%;
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 10vw;
+}
+#nav #nav-left{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+#nav #nav-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav-middle h1{
+    margin-left: 40px;
+}
+#nav-middle h5{
+    line-height: 1px;
 }
