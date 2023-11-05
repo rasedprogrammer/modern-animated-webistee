@@ -42,6 +42,9 @@ html, body{
     line-height: 1;
 }
 #hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     margin: 15vw 0;
 }
@@ -73,4 +76,53 @@ html, body{
     width: 140%;
     height: 140%;
     object-fit: cover;
+}
+#ephemeral{
+    position: relative;
+    width: 30vw;
+    height: 40vw;
+    background-color: rgb(210, 203, 203);
+}
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral p{
+    position: absolute;
+    width: 30%;
+    top: 105%;
+    line-height: 1;
+}
+#ephemeral #headings{
+    position: absolute;
+    top: -23%;
+    left: -12%;
+}
+#ephemeral h1{
+    font-size: 6vw;
+    font-weight: 400;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#circlev{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#circlev i{
+    color: #5e5e5e;
+}
+#visit h5{
+    color: #5e5e5e;
+    font-weight: 400;
 }
